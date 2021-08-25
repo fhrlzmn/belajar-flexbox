@@ -70,3 +70,19 @@ body {
 .layanan.lima {
   background-color: cornflowerblue;
 }
+
+/* Latihan 3 */
+.container.tiga {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.picture {
+  width: 30%;
+  margin: 5px;
+}
+
+.picture img {
+  width: 100%;
+}

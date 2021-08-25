@@ -2,11 +2,17 @@ html,
 body {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
-.container-satu {
+/* Latihan 1 */
+
+.container {
   width: 800px;
-  margin: 50px auto;
+  margin: 40px auto;
+}
+
+.container.satu {
   background-color: lightskyblue;
   padding: 30px;
   box-sizing: border-box;
@@ -28,4 +34,39 @@ body {
 .sidebar-dua {
   flex: 1;
   order: 3;
+}
+
+/* Latihan 2 */
+
+.container.dua {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.layanan {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.layanan.satu {
+  background-color: lightsalmon;
+}
+
+.layanan.dua {
+  background-color: lightseagreen;
+}
+
+.layanan.tiga {
+  background-color: lightcoral;
+}
+
+.layanan.empat {
+  background-color: limegreen;
+}
+
+.layanan.lima {
+  background-color: cornflowerblue;
 }

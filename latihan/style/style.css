@@ -115,3 +115,23 @@ body {
 .card.besar {
   transform: scale(1.12);
 }
+
+/* Latihan 5 */
+.container.lima {
+  border: 5px solid black;
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+
+.container.lima .kotak {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  display: flex;
+}
+
+.kotak p {
+  margin: auto;
+}

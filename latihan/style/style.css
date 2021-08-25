@@ -86,3 +86,32 @@ body {
 .picture img {
   width: 100%;
 }
+
+/* Latihan 4 */
+.container.empat {
+  display: flex;
+}
+
+.card {
+  background-color: rgb(216, 216, 216);
+  border-radius: 10px;
+  border: 3px solid gray;
+  overflow: hidden;
+  flex: 1;
+  margin: 0px 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.card .image {
+  background-color: lightskyblue;
+  height: 150px;
+}
+
+.card .text {
+  padding: 20px;
+}
+
+.card.besar {
+  transform: scale(1.12);
+}

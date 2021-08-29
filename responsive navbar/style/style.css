@@ -1,4 +1,104 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: 1000px;
 }
+
+body a {
+  text-decoration: none;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: #16213e;
+  margin: auto;
+  padding: 0 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  -webkit-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  color: white;
+}
+
+nav .nav-menu {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav .nav-menu .nav-item {
+  margin-left: 7%;
+}
+
+nav .nav-menu .nav-item a:hover {
+  color: #e94560;
+}
+
+nav .hamburger {
+  color: white;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav .nav-menu a {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  nav .nav-menu {
+    display: block;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    position: fixed;
+    padding-top: 15px;
+    top: 60px;
+    left: 105%;
+    width: 100%;
+    background-color: #16213e;
+    -webkit-box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, 0.5);
+    -webkit-transition: 300ms;
+    transition: 300ms;
+  }
+  nav .nav-menu .nav-item {
+    margin: 0 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav .nav-menu .nav-item a {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+  nav .hamburger {
+    display: inherit;
+  }
+}
+/*# sourceMappingURL=style.css.map */
